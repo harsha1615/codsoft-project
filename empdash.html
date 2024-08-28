@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employer Dashboard - Job Board</title>
+    <link rel="stylesheet" href="emp.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Employer Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="job-listings.html">Job Listings</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="dashboard-overview">
+        <div class="container">
+            <h2>Welcome, [Employer Name]</h2>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>Total Jobs Posted</h3>
+                    <p>10</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Active Listings</h3>
+                    <p>3</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Total Applications</h3>
+                    <p>45</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="job-management">
+        <div class="container">
+            <h2>Manage Jobs</h2>
+            <button class="btn">Post a New Job</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Job Title</th>
+                        <th>Location</th>
+                        <th>Status</th>
+                        <th>Applications</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Software Engineer</td>
+                        <td>San Francisco, CA</td>
+                        <td>Active</td>
+                        <td>15</td>
+                        <td>
+                            <a href="#">Edit</a> | <a href="#">Close</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Marketing Specialist</td>
+                        <td>New York, NY</td>
+                        <td>Closed</td>
+                        <td>10</td>
+                        <td>
+                            <a href="#">Edit</a> | <a href="#">Reopen</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Data Analyst</td>
+                        <td>Austin, TX</td>
+                        <td>Active</td>
+                        <td>20</td>
+                        <td>
+                            <a href="#">Edit</a> | <a href="#">Close</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Job Board. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

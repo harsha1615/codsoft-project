@@ -1,0 +1,138 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Dashboard Overview */
+.dashboard-overview {
+    padding: 50px 0;
+    background: #ffffff;
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat-item {
+    background: #e8491d;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.stat-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Job Management */
+.job-management {
+    padding: 50px 0;
+    background: #ffffff;
+}
+
+.job-management h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.job-management .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+td a {
+    color: #e8491d;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
